@@ -27,7 +27,7 @@ function runDemo() {
 
 // Only run the demo when executed directly (not when imported by tests)
 if (require.main === module) {
-  runDemo();
+  runDemo()
 }
-
+//new line
 module.exports = { runDemo };
